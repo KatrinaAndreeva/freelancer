@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Tenor+Sans&subset=cyrillic');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    width: 100%;
+    max-width: 1414px;
+    background-image: url(img/bgc.png);
+    font-family: 'Tenor Sans', sans-serif;
+    }
+    
+    #wrapper {
+        background-color: rgba(220, 220, 220, 0.2);//color to change
+}
+.header_full {
+    width: 100%;
+    max-height: 600px;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    background-color: rgba(51, 51, 51, 0.15);
+    height: 150px;
+     align-items: center;
+}
+.logo img {
+    width: 60%;
+    margin-left: 1.5%;
+}
+.nav_menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10%;
+        font-family: 'Poiret One', cursive;
+    font-size: 1em;
+}
+.nav_menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    margin-left: 3.5%;
+}
+.baner {
+    height: 650px;
+}
+h1 {
+    background-color: rgba(51, 51, 51, 0.15);
+    color: #ffffff;
+        font-weight: 500;
+}
+.baner_text {
+    text-align: center;
+    margin: auto;
+    padding: 20% 0;
+}
+.services {
+    background-color: #2db7e5;
+    min-height: 400px;
+    color: #ffffff;
+}
+.services_title,
+.portfolio_title,
+.sertificates_title,
+.reviews_title,
+.aboutme_title,
+.testimonials_title,
+.contactme_title {
+        padding-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1em;
+}
+.services_skills,
+.sertificates_photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill:nth-child(2) {
+    border-right: 1px dotted grey;
+    border-left: 1px dotted grey;
+}
+.skill:last-child {
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+.skill,
+.sertificate_photo {
+    margin-right: auto;
+    text-align: center;
+        max-width: 30%;
+        margin-bottom: 3%;
+        justify-content: space-between;
+}
+.skill img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.skill h3 {
+    margin-bottom: 23px;
+    font-size: 1.3em;
+}
+ p {
+    line-height: 1.2;
+    font-size: 1.1em;
+}
+.portfolio {
+    min-height: 845px;
+   
+    color: white;
+}
+.portfolio_photos {
+    display: flex;
+}
+.portfolio_photo {
+        max-width: 25%;
+    margin-right: 10%;
+}
+.portfolio_photos a {
+    margin-right: auto;
+}
+.sertificates {
+    min-height: 480px;
+    color: #ffffff;
+     background-color: #2db7e5;
+}
+.sertificate_photo h3{
+        padding-bottom: 1em;
+}
+.sertificate_photo a {
+    text-decoration: none;
+    color: white;
+}
+.sertificate_photo a:hover {
+    text-decoration: underline;
+}
+.reviews {
+    max-height: 308px;
+    color: white;
+}
+.aboutme {
+    min-height: 505px;
+     color: #ffffff;
+   }
+.testimonials {
+    min-height: 363px;
+    background-color: white;
+}
+.contactme {
+    max-height: 810px;
+    color: white;
+      background-color: #2db7e5
+}
+.form_name {
+    width: 50%;
+}
+.form_text {
+    display: grid;
+        width: 50%;
+    padding-left: 100px;
+}
+.form_names {
+    display: flex;
+}
+#user_name,
+#user_email {
+    height: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+        border-radius: 5px;
+}
+#user_message {
+    width: 80%;
+    height: 80px;
+    margin-bottom: 30px;
+        border-radius: 5px;
+}
+#submit {
+       height: 30px;
+    margin-left: 23%;
+    width: 33%;
+    border-radius: 10px;
+    background-color: darkgrey;
+    opacity: 0.9;
+    color: white;
+    margin-bottom: 25px;
+}
+#submit:hover {
+    background-color: #2db7e5;
+    transform: scale(1.2);
+}
+footer {
+   min-height: 170px;
+    background-color: #333333;
+    align-items: center;
+}
+.bottom_menu {
+      align-items: center;
+    display: flex;
+    padding-top: 8%;
+    font-family: 'Poiret One', cursive;
+    font-size: 1em;
+}
+.bottom_menu a {
+    color: #666666;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.bottom_menu a:hover,
+.nav_menu a:hover {
+    transform: scale(1.1);
+    color: #2db7e5;
+        text-decoration: underline;
+}
+.social img {
+        margin-right: 15px;
+            margin-bottom: 10px;
+}
+.adress img,
+.connect img {
+    width: 30px;
+    height: 30px;
+        margin-bottom: 10px;
+}
+.connect {
+    display: grid;
+}
+.connect a {
+    color: white;
+
+}
